@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void pattern2(int n) {
-    for(int i = 0; i < n; i++) {
-		for(int j = 0; j <= i; j++) {
+void pattern5(int n) {
+    for(int i = 1; i <= n; i++) {
+		for(int j = n; j >= i; j--) {   // (int j=0; j=n-i+1; j++)
 			cout << "* ";
 		}
 		cout << endl;
@@ -14,5 +14,5 @@ int main() {
     int n;
     cout << "Enter the number of rows: ";
     cin >> n;
-    pattern2(n);
+    pattern5(n);
 }
