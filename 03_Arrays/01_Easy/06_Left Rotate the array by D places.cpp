@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Brute force approach
 // with using extra temp array
 // TC --> O(n + d)
 // SC --> O(d)
@@ -22,6 +23,8 @@ using namespace std;
 // }
 
 
+
+// Optimal approach
 // without using extra space
 // TC --> O(2n)
 // SC --> O(1)
