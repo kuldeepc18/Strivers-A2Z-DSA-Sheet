@@ -37,7 +37,10 @@ using namespace std;
 
 
 
-// Better approach -> TC: O(n), SC: O(1)
+// Better approach 
+// TC: O(n*logn) -- ordered map ; O(n) -- unordered map best/average case ; O(n^2) -- unordered map worst case
+// SC: O(1)
+
 // vector<int> majorityElement(vector<int> v)
 // {
 //     int n = v.size();
@@ -66,8 +69,8 @@ using namespace std;
 
 
 // Optimal approach
-// TC: O(n*logn) -- ordered map ; O(n) -- unordered map best/average case ; O(n^2) -- unordered map worst case
-// SC: O(1)
+// TC: O(n) + O(n) = O(n), SC: O(1)
+
 vector<int> majorityElement(vector<int> v)
 {
     int n = v.size(); 
