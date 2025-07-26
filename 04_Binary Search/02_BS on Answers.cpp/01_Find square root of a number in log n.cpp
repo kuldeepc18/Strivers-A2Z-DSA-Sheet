@@ -33,6 +33,6 @@ int main()
     int n = 28;
     int ans = floorSqrt(n);
     cout << "The floor of square root of " << n
-         << " is: " << ans << "\n";
+        << " is: " << ans << "\n";
     return 0;
 }
